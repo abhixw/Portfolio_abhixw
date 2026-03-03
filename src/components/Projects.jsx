@@ -43,6 +43,16 @@ const projects = [
         repo: 'https://github.com/abhixw/GitaMind',
         tech: ['LangGraph', 'Qdrant', 'FastAPI'],
         accent: 'primary'
+    },
+    {
+        title: 'Nabha',
+        category: 'Full Stack',
+        tagline: 'Telemedicine & HomeCare Platform',
+        description: 'Comprehensive platform for remote care, digital records, and emergency SOS support.',
+        image: '/nabha_preview.png',
+        repo: 'https://github.com/abhixw/Telemedicine',
+        tech: ['Node.js', 'React Native', 'MongoDB'],
+        accent: 'primary'
     }
 ]
 
@@ -69,8 +79,8 @@ export default function Projects() {
                             key={cat}
                             onClick={() => setActiveTab(cat)}
                             className={`px-6 py-2 rounded-full border text-sm font-medium transition-all duration-300 ${activeTab === cat
-                                    ? 'bg-primary border-primary text-white shadow-lg shadow-primary/20 scale-105'
-                                    : 'bg-surface-card/40 border-border text-text-secondary hover:border-primary/40'
+                                ? 'bg-primary border-primary text-white shadow-lg shadow-primary/20 scale-105'
+                                : 'bg-surface-card/40 border-border text-text-secondary hover:border-primary/40'
                                 }`}
                         >
                             {cat}
@@ -110,7 +120,7 @@ export default function Projects() {
                         <div className="p-6">
                             <div className="flex items-center gap-2 mb-3">
                                 <span className={`w-2 h-2 rounded-full ${project.accent === 'green' ? 'bg-accent-green' :
-                                        project.accent === 'orange' ? 'bg-accent-orange' : 'bg-primary'
+                                    project.accent === 'orange' ? 'bg-accent-orange' : 'bg-primary'
                                     }`} />
                                 <span className="text-xs font-bold uppercase tracking-widest text-text-muted">
                                     {project.category}
