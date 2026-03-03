@@ -29,7 +29,7 @@ const projects = [
         category: 'Security',
         tagline: 'Anomalous HTTP detection system',
         description: 'Transformer-based Firewall to detect malicious requests without rule signatures.',
-        image: '/transformer_waf_preview.png',
+        image: '/waf_dashboard_preview.png',
         repo: 'https://github.com/abhixw/Web-Application-Firewall',
         tech: ['Transformers', 'PyTorch', 'FastAPI'],
         accent: 'orange'
