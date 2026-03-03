@@ -3,7 +3,7 @@ import SectionWrapper, { SectionTitle } from './SectionWrapper'
 export default function About() {
     const highlights = [
         { icon: '🤖', label: 'Generative AI', desc: 'LLM orchestration & RAG pipelines' },
-        { icon: '⚡', label: 'Backend Engineering', desc: 'FastAPI, Django, REST APIs' },
+        { icon: '⚡', label: 'Backend Engineering', desc: 'FastAPI, REST APIs' },
         { icon: '🧠', label: 'Problem Solving', desc: 'DSA & system-level thinking' },
     ]
 
