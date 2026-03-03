@@ -53,6 +53,16 @@ const projects = [
         repo: 'https://github.com/abhixw/Telemedicine',
         tech: ['Node.js', 'React Native', 'MongoDB'],
         accent: 'primary'
+    },
+    {
+        title: 'SitePulse',
+        category: 'Full Stack',
+        tagline: 'Website Performance Audit Engine',
+        description: 'Analyzes real-world websites using PageSpeed Insights API to generate actionable SEO and performance recommendations.',
+        image: '/sitepulse_screenshot.png',
+        repo: 'https://github.com/abhixw/SitePulse',
+        tech: ['FastAPI', 'React', 'Python', 'SEO'],
+        accent: 'primary'
     }
 ]
 
