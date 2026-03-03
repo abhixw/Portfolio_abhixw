@@ -5,9 +5,8 @@ const technicalSkills = [
     { name: 'Python', level: 95, icon: '🐍' },
     { name: 'Generative AI / LLMs', level: 90, icon: '🧠' },
     { name: 'RAG & Agentic Workflows', level: 88, icon: '🤖' },
-    { name: 'FastAPI / Django', level: 85, icon: '⚙️' },
+    { name: 'FastAPI', level: 85, icon: '⚙️' },
     { name: 'Vector Databases (Qdrant)', level: 82, icon: '🗄️' },
-    { name: 'PyTorch / ML Ops', level: 75, icon: '🔥' },
     { name: 'Java / Data Structures', level: 80, icon: '☕' },
 ]
 
