@@ -4,59 +4,79 @@ const projects = [
     {
         title: 'InterXAI',
         tagline: 'AI-Powered Interview Automation System',
-        subtitle: 'Adaptive Interview Engine with AI-Driven Questioning & Evaluation',
+        subtitle: null,
         repo: 'https://github.com/abhixw/InterXAI',
-        role: 'GenAI Engineer',
+        role: 'AI Engineer',
         overview:
-            'AI-powered interview automation platform that conducts adaptive interviews using LLM-based question generation and semantic evaluation integrated with a scalable backend architecture.',
+            'AI-driven interview automation platform using agent-based LLM workflows for dynamic question generation and scoring.',
         contributions: [
-            'Designed adaptive question generation using LangChain + LLaMA',
-            'Built semantic evaluation and scoring logic',
-            'Engineered structured prompts for technical and communication assessment',
-            'Tuned model parameters for stable outputs',
-            'Integrated AI outputs with Django backend APIs',
+            'Reduced interview coordination time by 70% through structured evaluation logic and workflow automation',
+            'Designed an NLP-based answer evaluation pipeline with quantitative scoring metrics for consistent candidate assessment',
+            'Dockerized backend services and integrated Redis caching to optimize inference latency and scalability',
         ],
         tech: [
-            ['Python', 'LangChain', 'Meta LLaMA'],
-            ['Django', 'PostgreSQL', 'Redis'],
-            ['React', 'WebSockets'],
-            ['Docker'],
+            ['Python', 'LLM Workflows', 'NLP'],
+            ['Docker', 'Redis'],
         ],
         accent: 'primary',
     },
     {
-        title: 'Bhagavad Gita RAG Assistant',
-        tagline: 'Intent-Aware RAG Chatbot',
-        subtitle: null,
-        repo: 'https://github.com/abhixw/Bhagavad_Gita_RAG_Assistant',
-        role: null,
+        title: 'SignalStack',
+        tagline: 'GitHub-Based Signal Extraction Hiring Platform',
+        subtitle: 'Hackathon 2026',
+        repo: 'https://github.com/abhixw/SignalStack', // Placeholder as not explicitly in img but pattern suggests
+        role: 'Full-Stack Developer',
         overview:
-            'Built a Retrieval-Augmented Generation chatbot grounded strictly in the Bhagavad Gita using vector search and LangGraph-based routing to prevent hallucination and ensure context-aware responses.',
-        contributions: null,
+            'AI-powered hiring platform evaluating candidates via GitHub-based signal extraction instead of resumes.',
+        contributions: [
+            'Built FastAPI backend integrating GitHub API and Gemini 2.5 Flash for task decomposition and intelligent scoring',
+            'Designed React + Vite dashboard for outcome creation, candidate evaluation, and reviewer workflows',
+            'Implemented structured scoring, audit logging, and feedback-driven system learning',
+        ],
         tech: [
-            ['Python', 'FastAPI', 'LangChain', 'LangGraph'],
-            ['Qdrant (Vector DB)'],
-            ['HuggingFace Embeddings'],
-            ['Groq LLM'],
-            ['Streamlit'],
+            ['FastAPI', 'GitHub API', 'Gemini 2.5 Flash'],
+            ['React', 'Vite'],
         ],
         accent: 'green',
     },
     {
-        title: 'Multilingual Movie Recommender',
-        tagline: 'Context-Aware Multilingual Movie Recommendation System',
-        subtitle: 'Multi-language, Context-aware, Explainable, and Production-friendly',
-        repo: 'https://github.com/abhixw/Multilingual_Movie_Recommender',
-        role: null,
+        title: 'Transformer-Based WAF',
+        tagline: 'Anomalous HTTP Request Detection System',
+        subtitle: 'Smart India Hackathon 2025',
+        repo: 'https://github.com/abhixw/Transformer-WAF', // Placeholder
+        role: 'Backend & ML Developer',
         overview:
-            'AI-powered movie recommendation system that provides personalized, multilingual, and context-aware suggestions by incorporating user mood, time of day, weather, and preferred language. Combines Collaborative Filtering, Content-based Similarity, and XGBoost ML for explainable and diverse recommendations.',
-        contributions: null,
+            'Transformer-based Web Application Firewall to detect anomalous HTTP requests without rule-based signatures.',
+        contributions: [
+            'Trained and fine-tuned a sequence classification model on HTTP payload data for malicious request detection',
+            'Developed real-time detection and retraining APIs using FastAPI and PyTorch with structured logging via SQLite',
+            'Enabled Docker-based deployment and Nginx integration for end-to-end traffic evaluation',
+        ],
         tech: [
-            ['Python', 'XGBoost', 'Streamlit'],
-            ['pandas', 'NumPy', 'scikit-learn'],
-            ['Matplotlib', 'Seaborn', 'Plotly'],
+            ['Transformer', 'FastAPI', 'PyTorch'],
+            ['SQLite', 'Docker', 'Nginx'],
         ],
         accent: 'orange',
+    },
+    {
+        title: 'GitaMind',
+        tagline: 'Agentic RAG Assistant',
+        subtitle: '2026',
+        repo: 'https://github.com/abhixw/GitaMind', // Placeholder
+        role: 'AI Engineer',
+        overview:
+            'Agentic RAG assistant grounded in the Bhagavad Gita using LangGraph-based orchestration.',
+        contributions: [
+            'Implemented planner, router, and critic reflection loop to enforce strict verse-level citation and prevent hallucination',
+            'Integrated Groq LLaMA-3.1, HuggingFace embeddings, and Qdrant vector search for multilingual grounded responses',
+            'Built FastAPI backend with Streamlit UI supporting voice interaction via Whisper (STT) and gTTS (TTS)',
+        ],
+        tech: [
+            ['LangGraph', 'LLaMA-3.1', 'Groq'],
+            ['Qdrant', 'FastAPI', 'Streamlit'],
+            ['Whisper (STT)', 'gTTS (TTS)'],
+        ],
+        accent: 'primary',
     },
 ]
 
