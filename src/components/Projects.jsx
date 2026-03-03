@@ -45,11 +45,11 @@ const projects = [
         accent: 'primary'
     },
     {
-        title: 'Nabha',
+        title: 'Telemedicine',
         category: 'Full Stack',
         tagline: 'Telemedicine & HomeCare Platform',
         description: 'Comprehensive platform for remote care, digital records, and emergency SOS support.',
-        image: '/nabha_preview.png',
+        image: '/telemedicine_preview.png',
         repo: 'https://github.com/abhixw/Telemedicine',
         tech: ['Node.js', 'React Native', 'MongoDB'],
         accent: 'primary'
