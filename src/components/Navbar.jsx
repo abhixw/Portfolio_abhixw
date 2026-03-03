@@ -24,7 +24,7 @@ export default function Navbar() {
 
     return (
         <nav
-            className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-5xl rounded-2xl border border-primary/20 bg-primary/10 dark:bg-primary/15 backdrop-blur-xl shadow-2xl shadow-primary/10 transition-all duration-500 hover:scale-[1.01] hover:bg-primary/20"
+            className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-5xl rounded-2xl border border-border/40 bg-white/70 dark:bg-black/40 backdrop-blur-xl shadow-2xl shadow-black/10 transition-all duration-500 hover:bg-white/80 dark:hover:bg-black/50"
         >
             <div className="mx-auto px-6 py-3 flex items-center justify-between">
                 {/* Name / Logo */}
