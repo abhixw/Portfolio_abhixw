@@ -84,8 +84,8 @@ export default function Profiles() {
                         </p>
                     </div>
                     <a
-                        href="/RESUME_ABHINAV.pdf"
-                        download="RESUME_ABHINAV.pdf"
+                        href="/Final_Resume_abhinav.pdf"
+                        download="Final_Resume_abhinav.pdf"
                         className="px-6 py-2.5 rounded-lg bg-accent-orange text-white font-semibold text-sm hover:bg-accent-orange-light transition-colors shrink-0"
                     >
                         Download Resume
