@@ -53,10 +53,9 @@ export default function Navbar() {
                     <ThemeToggle />
                 </div>
 
-                {/* Mobile hamburger */}
                 <button
                     onClick={() => setMobileOpen(!mobileOpen)}
-                    className="md:hidden p-2 text-text-muted hover:text-primary"
+                    className="md:hidden p-2 text-text-muted hover:text-primary z-50 transition-colors"
                     aria-label="Toggle menu"
                 >
                     <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
@@ -76,24 +75,33 @@ export default function Navbar() {
                 </button>
             </div>
 
-            {/* Mobile menu */}
-            {mobileOpen && (
-                <div className="md:hidden bg-surface-card border-t border-border px-6 pb-6 pt-2 space-y-3">
-                    {navLinks.map((link) => (
+            {/* Mobile menu overlay */}
+            <div
+                className={`fixed inset-0 z-40 md:hidden bg-surface/98 backdrop-blur-xl transition-all duration-500 ease-in-out ${mobileOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
+                    }`}
+            >
+                <div className="flex flex-col items-center justify-center h-full space-y-8 px-6">
+                    {navLinks.map((link, index) => (
                         <a
                             key={link.href}
                             href={link.href}
                             onClick={() => setMobileOpen(false)}
-                            className="block text-sm font-medium text-text-muted hover:text-primary py-2"
+                            className={`text-2xl font-bold text-text-primary hover:text-primary transition-all duration-300 transform ${mobileOpen ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'
+                                }`}
+                            style={{ transitionDelay: `${index * 100}ms` }}
                         >
                             {link.label}
                         </a>
                     ))}
-                    <div className="flex justify-center pt-2">
+                    <div
+                        className={`pt-8 transition-all duration-500 transform ${mobileOpen ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'
+                            }`}
+                        style={{ transitionDelay: `${navLinks.length * 100}ms` }}
+                    >
                         <ThemeToggle />
                     </div>
                 </div>
-            )}
+            </div>
         </nav>
     )
 }

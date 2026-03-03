@@ -100,7 +100,7 @@ export default function Projects() {
             </div>
 
             {/* Projects Grid */}
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 relative z-10">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 relative z-10">
                 {filteredProjects.map((project, index) => (
                     <div
                         key={project.title}

@@ -89,7 +89,7 @@ export default function Skills() {
 
                 <div className="grid lg:grid-cols-2 gap-12 items-start">
                     {/* Technical Skills - Left Side */}
-                    <div className="bg-surface-card/60 backdrop-blur-sm p-8 rounded-2xl border border-border shadow-sm">
+                    <div className="bg-surface-card/60 backdrop-blur-sm p-6 md:p-8 rounded-2xl border border-border shadow-sm">
                         <h3 className="text-xl font-bold text-text-primary mb-8 flex items-center gap-2">
                             <span className="w-2 h-6 bg-primary rounded-full" />
                             Technical Proficiency
@@ -103,7 +103,7 @@ export default function Skills() {
 
                     {/* Professional Qualities - Right Side */}
                     <div className="flex flex-col h-full">
-                        <div className="bg-surface-card/60 backdrop-blur-sm p-8 rounded-2xl border border-border shadow-sm flex-1">
+                        <div className="bg-surface-card/60 backdrop-blur-sm p-6 md:p-8 rounded-2xl border border-border shadow-sm flex-1">
                             <h3 className="text-xl font-bold text-text-primary mb-10 flex items-center gap-2">
                                 <span className="w-2 h-6 bg-accent-orange rounded-full" />
                                 Professional Qualities

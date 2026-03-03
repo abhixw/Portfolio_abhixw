@@ -64,15 +64,15 @@ export default function Hero() {
             <div className="absolute top-32 right-16 w-64 h-64 bg-primary/5 rounded-full blur-3xl pointer-events-none" />
             <div className="absolute bottom-32 left-16 w-56 h-56 bg-accent-green/5 rounded-full blur-3xl pointer-events-none" />
 
-            <div className="max-w-6xl mx-auto w-full flex flex-col md:flex-row items-center gap-12 md:gap-16 pt-20 relative z-10">
-                {/* Text */}
-                <div className="flex-1 text-center md:text-left">
-                    <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent-green/10 text-accent-green text-sm font-medium mb-6 border border-accent-green/20 hero-fade-up">
+            <div className="max-w-6xl mx-auto w-full flex flex-col md:flex-row items-center gap-10 md:gap-16 pt-28 pb-12 md:pt-20 md:pb-0 relative z-10">
+                {/* Text Side */}
+                <div className="flex-1 text-center md:text-left order-2 md:order-1">
+                    <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent-green/10 text-accent-green text-xs md:text-sm font-medium mb-6 border border-accent-green/20 hero-fade-up">
                         <span className="w-2 h-2 rounded-full bg-accent-green animate-pulse" />
                         Available for opportunities
                     </div>
 
-                    <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight mb-4 hero-fade-up-delay-1">
+                    <h1 className="text-3xl sm:text-5xl md:text-6xl font-extrabold leading-tight mb-4 hero-fade-up-delay-1">
                         <TypewriterText
                             text={greeting}
                             startDelay={300}
@@ -154,15 +154,15 @@ export default function Hero() {
                     </div>
                 </div>
 
-                {/* Circular Image */}
-                <div className="flex-shrink-0 hero-slide-right animate-[float_1.2s_ease-in-out_infinite]">
-                    <div className="w-56 h-56 md:w-72 md:h-72 rounded-full border-2 border-border-light bg-surface-card flex items-center justify-center relative overflow-hidden">
+                {/* Image Side */}
+                <div className="flex-shrink-0 order-1 md:order-2 hero-slide-right">
+                    <div className="w-48 h-48 sm:w-56 sm:h-56 md:w-72 md:h-72 rounded-full border-2 border-border-light bg-surface-card flex items-center justify-center relative overflow-hidden shadow-2xl shadow-primary/10">
                         <img
                             src="/abhinav.jpg"
                             alt="Abhinav Shrimali"
                             className="w-full h-full rounded-full object-cover"
                         />
-                        <div className="absolute inset-[-8px] rounded-full border border-dashed border-border animate-[spin_12s_linear_infinite]" />
+                        <div className="absolute inset-[-8px] rounded-full border border-dashed border-border animate-[spin_12s_linear_infinite] opacity-50" />
                     </div>
                 </div>
             </div>
