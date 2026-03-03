@@ -11,21 +11,21 @@ export default function About() {
         <SectionWrapper id="about" alt>
             <SectionTitle
                 title="About"
-                subtitle="AI-focused developer specializing in Generative AI systems, LLM orchestration, and backend engineering."
+                subtitle="Computer Science and Design student at DSCE, specializing in AI and secure system design."
                 accent="green"
             />
 
             <div className="grid md:grid-cols-2 gap-10">
                 <div>
                     <p className="text-text-secondary leading-relaxed mb-6">
-                        Experienced in building RAG pipelines, adaptive AI workflows, and
-                        scalable REST APIs using FastAPI and Django. Strong foundation in
-                        data structures, algorithms, and system-level thinking.
+                        🎓 I’m a Computer Science and Design student (Batch of 2027) at
+                        Dayananda Sagar College of Engineering, with a strong interest in
+                        Artificial Intelligence and secure system design.
                     </p>
                     <p className="text-text-secondary leading-relaxed">
-                        Passionate about leveraging cutting-edge AI technologies to build
-                        intelligent systems that solve real-world problems. Currently focused
-                        on GenAI systems, LLM applications, and modern backend architectures.
+                        🤖 AI-focused developer specializing in Generative AI systems, LLM
+                        orchestration, and backend engineering. Experienced in building RAG
+                        pipelines, adaptive AI workflows, and scalable REST APIs using FastAPI.
                     </p>
                 </div>
 
