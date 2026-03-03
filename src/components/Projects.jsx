@@ -43,7 +43,7 @@ const projects = [
         title: 'Transformer-Based WAF',
         tagline: 'Anomalous HTTP Request Detection System',
         subtitle: 'Smart India Hackathon 2025',
-        repo: 'https://github.com/abhixw/Transformer-WAF', // Placeholder
+        repo: 'https://github.com/abhixw/Web-Application-Firewall',
         role: 'Backend & ML Developer',
         overview:
             'Transformer-based Web Application Firewall to detect anomalous HTTP requests without rule-based signatures.',
