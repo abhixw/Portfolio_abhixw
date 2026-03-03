@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import SectionWrapper, { SectionTitle } from './SectionWrapper'
-import BackgroundTopology from './BackgroundTopology'
 
 const technicalSkills = [
     { name: 'Python', level: 95, icon: '🐍' },
@@ -81,9 +80,7 @@ function CircularChart({ name, level, color }) {
 
 export default function Skills() {
     return (
-        <SectionWrapper id="skills" className="relative overflow-hidden bg-surface-alt/30">
-            <BackgroundTopology />
-
+        <SectionWrapper id="skills" className="relative overflow-hidden bg-transparent">
             <div className="relative z-10">
                 <SectionTitle
                     title="Skills & Expertise"

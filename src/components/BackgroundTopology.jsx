@@ -79,7 +79,7 @@ export default function BackgroundTopology() {
     return (
         <canvas
             ref={canvasRef}
-            className="absolute inset-0 w-full h-full pointer-events-none opacity-50"
+            className="fixed inset-0 w-full h-full pointer-events-none z-0 opacity-40 dark:opacity-30"
         />
     )
 }

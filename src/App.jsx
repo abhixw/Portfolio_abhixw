@@ -9,10 +9,12 @@ import Certifications from './components/Certifications'
 import Profiles from './components/Profiles'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import BackgroundTopology from './components/BackgroundTopology'
 
 function App() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen relative bg-surface">
+      <BackgroundTopology />
       <Navbar />
       <Hero />
       <About />
