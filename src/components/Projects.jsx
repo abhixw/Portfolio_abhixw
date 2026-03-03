@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import SectionWrapper from './SectionWrapper'
 
-const categories = ['All Projects', 'AI / ML', 'Backend', 'Full Stack', 'Security']
+const categories = ['All Projects', 'AI / ML', 'Full Stack', 'Security']
 
 const projects = [
     {
