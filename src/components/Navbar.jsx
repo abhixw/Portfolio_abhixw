@@ -79,23 +79,23 @@ export default function Navbar() {
                 className={`fixed inset-0 z-40 md:hidden bg-surface/98 backdrop-blur-xl transition-all duration-500 ease-in-out ${mobileOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
                     }`}
             >
-                <div className="flex flex-col items-center justify-center h-full space-y-8 px-6">
+                <div className="flex flex-col items-center justify-center min-h-full pt-24 pb-10 gap-5 px-6 overflow-y-auto">
                     {navLinks.map((link, index) => (
                         <a
                             key={link.href}
                             href={link.href}
                             onClick={() => setMobileOpen(false)}
-                            className={`text-2xl font-bold text-text-primary hover:text-primary transition-all duration-300 transform ${mobileOpen ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'
+                            className={`text-xl font-bold text-text-primary hover:text-primary transition-all duration-300 transform ${mobileOpen ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'
                                 }`}
-                            style={{ transitionDelay: `${index * 100}ms` }}
+                            style={{ transitionDelay: `${index * 60}ms` }}
                         >
                             {link.label}
                         </a>
                     ))}
                     <div
-                        className={`pt-8 transition-all duration-500 transform ${mobileOpen ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'
+                        className={`pt-4 transition-all duration-500 transform ${mobileOpen ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'
                             }`}
-                        style={{ transitionDelay: `${navLinks.length * 100}ms` }}
+                        style={{ transitionDelay: `${navLinks.length * 60}ms` }}
                     >
                         <ThemeToggle />
                     </div>
