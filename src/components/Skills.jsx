@@ -4,35 +4,54 @@ const skillCategories = [
     {
         title: 'Programming',
         icon: '💻',
-        items: ['Python', 'Java', 'C++', 'C', 'OOP'],
+        items: ['Python', 'Java', 'OOP', 'Data Structures'],
         accent: 'primary',
     },
     {
         title: 'AI / ML',
         icon: '🧠',
         items: [
-            'LangChain', 'LangGraph', 'Transformers', 'PyTorch', 'Scikit-learn',
-            'LLMs', 'NLP', 'RAG', 'Vector Search', 'Embeddings', 'Prompt Engineering',
+            'Generative AI', 'RAG Pipelines', 'LangChain', 'LangGraph',
+            'Transformers', 'NLP', 'Prompt Engineering', 'PyTorch',
+            'Scikit-learn', 'XGBoost'
         ],
         accent: 'green',
     },
     {
-        title: 'Backend',
-        icon: '⚙️',
-        items: ['FastAPI', 'Django', 'REST APIs', 'Microservices', 'Uvicorn', 'Pydantic'],
+        title: 'LLM Systems',
+        icon: '🤖',
+        items: [
+            'Embeddings', 'Vector Search', 'Qdrant', 'Multi-Agent Workflows',
+            'Context Window Optimization'
+        ],
         accent: 'orange',
+    },
+    {
+        title: 'Backend & APIs',
+        icon: '⚙️',
+        items: ['FastAPI', 'RESTful APIs', 'Pydantic', 'Uvicorn', 'Microservices Architecture'],
+        accent: 'primary',
     },
     {
         title: 'Databases',
         icon: '🗄️',
-        items: ['PostgreSQL', 'MySQL', 'MongoDB', 'SQLite', 'Qdrant'],
-        accent: 'primary',
+        items: ['PostgreSQL', 'MySQL', 'SQLite', 'Qdrant (Vector DB)'],
+        accent: 'green',
     },
     {
-        title: 'Data Tools',
+        title: 'DevOps & Deployment',
+        icon: '🚀',
+        items: [
+            'Docker', 'Git', 'GitHub', 'Vercel', 'Render',
+            'Model Serialization (joblib)', 'API Documentation (Swagger)'
+        ],
+        accent: 'orange',
+    },
+    {
+        title: 'Data & Analysis',
         icon: '📊',
-        items: ['Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Jupyter Notebook'],
-        accent: 'green',
+        items: ['Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Jupyter'],
+        accent: 'primary',
     },
 ]
 
