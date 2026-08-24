@@ -15,6 +15,22 @@ export default function Dispatches() {
             </div>
             <p>Introduction to Machine Learning Elite certification course issued by IIT Madras, demonstrating advanced proficiency in core ML algorithms, neural nets, and statistical methods.</p>
           </div>
+
+          <div className="entry">
+            <div className="h">
+              <b>Generative AI &amp; Full Stack Development</b>
+              <span className="badge">AllCognix · May-Jul 2026</span>
+            </div>
+            <p>Issued on completion of the AI &amp; Full Stack Development internship at AllCognix AI Technologies, covering agentic workflows, LLM APIs, and production full stack delivery.</p>
+          </div>
+
+          <div className="entry">
+            <div className="h">
+              <b>GEN-AI Camp — Generative AI, Multimodal AI &amp; NLP</b>
+              <span className="badge">AlgoUniversity · Jul 2026</span>
+            </div>
+            <p>Intensive program covering generative AI, multimodal AI systems, and natural language processing fundamentals and applications.</p>
+          </div>
         </div>
 
         <div className="reveal">
@@ -50,6 +66,14 @@ export default function Dispatches() {
               <span className="badge">Operations Lead</span>
             </div>
             <p>CSD Department Operations Team Lead. Coordinated event operations, logistics, and volunteers.</p>
+          </div>
+
+          <div className="entry">
+            <div className="h">
+              <b>Competitive Programming</b>
+              <span className="badge">110+ Problems</span>
+            </div>
+            <p>Solved 110+ Data Structures &amp; Algorithms problems in Java.</p>
           </div>
         </div>
       </div>

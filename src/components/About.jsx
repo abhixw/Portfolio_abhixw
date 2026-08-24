@@ -22,7 +22,7 @@ export default function About() {
             <div className="row">
               <div className="k">CGPA</div>
               <div className="v">
-                <b>8.94</b> / 10.0
+                <b>8.97</b> / 10.0
               </div>
             </div>
             <div className="row">
@@ -40,7 +40,7 @@ export default function About() {
             <div className="row">
               <div className="k">Status</div>
               <div className="v">
-                <b>GenAI Intern · AllCognix</b>
+                <b>Ex-Intern · AllCognix</b>
               </div>
             </div>
             <div className="row">

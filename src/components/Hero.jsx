@@ -9,10 +9,10 @@ export default function Hero() {
       </div>
 
       <div className="docline reveal">
-        <span>Status — <b>Intern @ AllCognix</b></span>
+        <span>Status — <b>Open to full-time roles</b></span>
         <span>Discipline — <b>GenAI / Full Stack</b></span>
         <span>Base — <b>Bengaluru, IN</b></span>
-        <span>Issue — <b>2026.06</b></span>
+        <span>Issue — <b>2026.08</b></span>
       </div>
       <h1 className="reveal">
         Abhinav<span className="l2"><em>Shrimali</em></span>

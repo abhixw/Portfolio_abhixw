@@ -6,17 +6,17 @@ export default function Projects() {
       tagline: "AI-Powered Hiring Platform · 2026",
       description: "An AI-powered hiring platform leveraging GitHub activity for candidate assessment. Built a FastAPI backend integrating GitHub API and Gemini 2.5 Flash for AI-driven candidate evaluation, and a React + Vite dashboard with scoring, audit logging, and evaluation workflows.",
       chips: ["FastAPI", "Gemini 2.5", "React", "GitHub API"],
-      link: "https://github.com/abhixw/SignalStack",
+      link: "https://github.com/abhixw/SignaXAI",
       stamp: "AI ASSESSMENT\nSCORING DASHBOARD"
     },
     {
       idx: "02",
       title: "InterXAI",
-      tagline: "Autonomous AI Proctoring & Interviews · 2025",
-      description: "An agentic AI-powered interview orchestration platform integrating Meta LLaMA via LangChain for adaptive questioning and real-time OpenCV-based computer vision proctoring to track behavioral violations and prevent malpractice.",
-      chips: ["React", "Django", "OpenCV", "LangChain", "LLaMA"],
+      tagline: "Backend-Driven AI Interview Platform · 2025",
+      description: "A backend-driven interview platform with specialized AI agents for resume screening, adaptive questioning, evaluation, and feedback generation, processing interviews end-to-end without manual intervention. Built an asynchronous processing pipeline using TaskIQ and Redis for background task execution, caching, and workflow orchestration, plus real-time monitoring — tab-switch detection, developer-tools detection, multiple-person detection, and interview state recovery during network interruptions.",
+      chips: ["FastAPI", "TaskIQ", "Redis", "Docker", "OpenCV"],
       link: "https://github.com/abhixw/interXAI",
-      stamp: "AI PROCTORING\nADAPTIVE AGENTS"
+      stamp: "AI PROCTORING\nASYNC PIPELINE"
     },
     {
       idx: "03",
@@ -26,6 +26,15 @@ export default function Projects() {
       chips: ["LangGraph", "LLaMA-3.1", "Qdrant", "FastAPI", "Groq"],
       link: "https://github.com/abhixw/GitaMind",
       stamp: "AGENTIC RAG\nVOICE INTERFACE"
+    },
+    {
+      idx: "04",
+      title: "Uroflowmetry",
+      tagline: "AI-Powered Clinical Flow Analysis · 2026",
+      description: "An end-to-end application for automated uroflowmetry analysis using computer vision and a physics-based model for clinical flow measurement. Built REST APIs with FastAPI integrated with a React frontend for video analysis, report generation, and data visualization, with image preprocessing, stream segmentation, ROI tracking, and geometric feature extraction via OpenCV — containerized with Docker and PostgreSQL for persistent data and automated clinical reporting.",
+      chips: ["OpenCV", "FastAPI", "React", "PostgreSQL", "Docker"],
+      link: "https://github.com/abhixw/Uroflowmetry",
+      stamp: "COMPUTER VISION\nCLINICAL REPORTING"
     }
   ]
 

@@ -8,20 +8,20 @@ export default function Experience() {
 
         <div className="tl-item reveal">
           <div className="when">
-            <div className="dates">May 2025 — Present</div>
+            <div className="dates">May 2026 — Jul 2026</div>
             <div className="live">
               <span style={{ width: '7px', height: '7px', borderRadius: '50%', background: 'var(--bg)', display: 'inline-block' }}></span>
-              Active
+              Completed
             </div>
-            <div className="place">Remote</div>
+            <div className="place">Bengaluru, India</div>
           </div>
           <div>
             <h3>AllCognix AI Technologies</h3>
-            <div className="who">Generative AI &amp; Full Stack Development Intern</div>
+            <div className="who">AI &amp; Full Stack Development Intern</div>
             <ul>
-              <li>Built agents and multi-agent workflows using LangChain and LangGraph for social media automation platform.</li>
-              <li>Developing AI-powered template generation features using LLM APIs.</li>
-              <li>Technologies Used: React, JavaScript, FastAPI, Python, PostgreSQL, OpenAI API</li>
+              <li>Developed AI agents and multi-agent workflows using LangChain and LangGraph to automate social media content generation.</li>
+              <li>Built an AI-powered Idea Validator with FastAPI and React, integrating Keycloak-based authentication and PostgreSQL for multi-user application data management.</li>
+              <li>Technologies Used: Python, FastAPI, React, PostgreSQL, OpenAI API, LangChain, LangGraph, Keycloak</li>
             </ul>
           </div>
         </div>

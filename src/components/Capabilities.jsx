@@ -3,22 +3,22 @@ export default function Capabilities() {
     {
       title: "Languages",
       num: "01",
-      skills: ["Python", "Java"]
+      skills: ["Python", "Java", "JavaScript"]
     },
     {
       title: "AI / ML",
       num: "02",
-      skills: ["Generative AI", "Agentic AI", "RAG", "MCP", "LangChain", "LangGraph", "LLMs"]
+      skills: ["Generative AI", "Agentic AI", "RAG", "LangChain", "LangGraph", "LLMs", "PyTorch", "Scikit-learn", "NumPy", "Pandas"]
     },
     {
       title: "Full Stack",
       num: "03",
-      skills: ["FastAPI", "React"]
+      skills: ["FastAPI", "React", "REST APIs", "Microservices", "Keycloak"]
     },
     {
       title: "Databases",
       num: "04",
-      skills: ["PostgreSQL", "Qdrant", "Redis", "MySQL"]
+      skills: ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Qdrant"]
     },
     {
       title: "Dev Tools",
