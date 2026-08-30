@@ -3,12 +3,12 @@ export default function Capabilities() {
     {
       title: "Languages",
       num: "01",
-      skills: ["Python", "Java", "JavaScript"]
+      skills: ["Python", "Java"]
     },
     {
       title: "AI / ML",
       num: "02",
-      skills: ["Generative AI", "Agentic AI", "RAG", "LangChain", "LangGraph", "LLMs", "PyTorch", "Scikit-learn", "NumPy", "Pandas"]
+      skills: ["Generative AI", "Agentic AI", "RAG", "MCP", "LangChain", "LangGraph", "LLMs", "Scikit-learn", "NumPy", "Pandas"]
     },
     {
       title: "Full Stack",

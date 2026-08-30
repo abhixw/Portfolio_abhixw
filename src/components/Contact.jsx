@@ -16,11 +16,14 @@ export default function Contact() {
         <a href="https://github.com/abhixw" target="_blank" rel="noopener noreferrer">
           GitHub ↗
         </a>
-        <a href="https://www.linkedin.com/in/abhinav-shrimali-ab63672a1/" target="_blank" rel="noopener noreferrer">
+        <a href="https://linkedin.com/in/abhixw" target="_blank" rel="noopener noreferrer">
           LinkedIn ↗
         </a>
         <a href="mailto:abhinavshrimali03@gmail.com">
           Email ↗
+        </a>
+        <a href="https://leetcode.com/u/7GM6BnwUWi/" target="_blank" rel="noopener noreferrer">
+          LeetCode ↗
         </a>
       </div>
     </section>

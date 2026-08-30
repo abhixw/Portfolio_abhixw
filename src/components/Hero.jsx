@@ -46,13 +46,17 @@ export default function Hero() {
           <span>GitHub</span>
           <span className="k">abhixw ↗</span>
         </a>
-        <a href="https://www.linkedin.com/in/abhinav-shrimali-ab63672a1/" target="_blank" rel="noopener noreferrer">
+        <a href="https://linkedin.com/in/abhixw" target="_blank" rel="noopener noreferrer">
           <span>LinkedIn</span>
-          <span className="k">in/abhinav-shrimali ↗</span>
+          <span className="k">in/abhixw ↗</span>
         </a>
         <a href="mailto:abhinavshrimali03@gmail.com">
           <span>Email</span>
           <span className="k">abhinavshrimali03@gmail.com ↗</span>
+        </a>
+        <a href="https://leetcode.com/u/7GM6BnwUWi/" target="_blank" rel="noopener noreferrer">
+          <span>LeetCode</span>
+          <span className="k">7GM6BnwUWi ↗</span>
         </a>
       </div>
     </section>
