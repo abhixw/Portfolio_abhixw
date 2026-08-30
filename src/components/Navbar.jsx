@@ -98,7 +98,7 @@ export default function Navbar() {
             {label}
           </a>
         ))}
-        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="drawer-resume">
+        <a href="/RESUME_COMPANY_PLACEMENT.pdf" target="_blank" rel="noopener noreferrer" className="drawer-resume">
           Résumé ↗
         </a>
       </div>

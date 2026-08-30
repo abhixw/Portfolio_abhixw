@@ -34,7 +34,7 @@ export default function Hero() {
             <a className="btn fill" href="#work">
               View Field Work <span className="ar">→</span>
             </a>
-            <a className="btn ghost" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a className="btn ghost" href="/RESUME_COMPANY_PLACEMENT.pdf" target="_blank" rel="noopener noreferrer">
               Résumé
             </a>
           </div>
